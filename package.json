@@ -45,7 +45,12 @@
   },
   "dependencies": {
     "npm-check-updates": "^16.10.13",
-    "tiddlywiki": "^5.3.0",
-    "tiddlywiki-plugin-dev": "^0.0.39"
+    "tiddlywiki": "^5.3.8",
+    "tiddlywiki-plugin-dev": "^0.4.4"
+  },
+  "pnpm": {
+    "overrides": {
+      "esbuild-plugin-browserslist": "1.0.2"
+    }
   }
 }
